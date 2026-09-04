@@ -91,9 +91,26 @@ body{
 }
 
 .parametro-senha__botao{
+background-color: var(--fundo-texto);
+color: var(--branco);
+border: 3px solid var(--borda);
+padding: 24px;
+font-size: 24px;
+cursor: pointer;
+<div class="parametro-senha">
+    <h4 class="parametro-senha__titulo">Número de caracteres</h4>
+    <button class="parametro-senha__botao">-</button>
+    <button class="parametro-senha__botao">+</button>
+</div>  
 
 }
 .parametro-senha__texto{
+
+border-top: 3px solid var(--borda);
+border-bottom: 3px solid var(--borda);
+padding: 24px;
+margin: 0px;
+font-size: 20px;
 
 }
 
