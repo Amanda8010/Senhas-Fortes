@@ -91,6 +91,8 @@ body{
 }
 
 .parametro-senha__botao{
+    border-top: 3px solid var(--borda);
+border-bottom: 3px solid var(--borda);
 background-color: var(--fundo-texto);
 color: var(--branco);
 border: 3px solid var(--borda);
@@ -101,17 +103,38 @@ cursor: pointer;
 }
 
 .parametro-senha__texto{
-
 border-top: 3px solid var(--borda);
 border-bottom: 3px solid var(--borda);
+
 padding: 24px;
 margin: 0px;
 font-size: 20px;
 
 }
 
+.parametro-senha__textos{
+border-top: 30px solid var(--borda);
+padding: 24px;
+margin: 0px;
+font-size: 20px;
+}
+
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
     }
+}
+
+.cadeado{
+    width: 55px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
